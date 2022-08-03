@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: columns;
+    align-items: center;
+    background: url(bed-3967757_1920.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin-top: 20px;
+    background-color: rgba(156, 156, 156, 0.205);
+    padding: 40px 60px;
+    border-radius: 30px;
+    min-width: 300px;
+}
+
+form h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+form .social-media {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #36b0f7;
+}
+
+form .social-media p {
+    padding: 5px;
+    width: 20px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border: 1px solid #545454;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+form p.choose-email {
+    text-align: center;
+}
+
+form .inputs {
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+form .inputs .inputs hover {
+    border: 2px solid rgb(0, 128, 255);
+}
+
+form .inputs input[type='email'],
+input[type='password'] {
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #acacac70;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+form p.inscription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff4f4;
+}
+
+form p.inscription span {
+    color: #5ebff7;
+}
+
+form p.login span {
+    color: #36b0f7;
+}
+
+form button {
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    background-color: #36cadd;
+    outline: none;
+    cursor: pointer;
+}
