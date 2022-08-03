@@ -1,11 +1,11 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import "../styles/style.css";
-import initPage from '../styles/code';
+
 
 
 const Header = () => {
-    initPage();
+
     return (
         <div>
         <nav className="nav">
