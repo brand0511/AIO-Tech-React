@@ -72,7 +72,7 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
          <NavLink to="/cart">   <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
@@ -92,7 +92,7 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
          <NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
@@ -112,7 +112,7 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
          <NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
@@ -132,7 +132,7 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
          <NavLink to="/cart">  <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
@@ -152,7 +152,7 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
          <NavLink to="/cart">  <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
@@ -172,8 +172,8 @@ const Overview = () => {
          <p>Details du produit</p>
          <div className="price">Prix</div>
          <div className="buttons">
-         <NavLink to="/checkout"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
-         <NavLink to="/checkout"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+         <NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
+         <NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
          </div>
       </div>
    
