@@ -3,12 +3,13 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Overview from '../components/Overview';
 
+
 const Home = () => {
     return (
         <div>
             <Header/>
             <Overview/>
-            <Footer/>           
+            <Footer/>      
         </div>
     );
 };

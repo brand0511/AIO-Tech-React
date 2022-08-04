@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function initPage(){
   const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
@@ -26,22 +27,22 @@ modeSwitch.addEventListener("click" , () =>{
     }
 });
 
-// Sticky Nav avec background black en js
-  // $(window).scroll(function() {
-      // if ($(document).scrollTop() > 50) {
-          // $('.nav').addClass('affix');
-          // console.log("OK");
-      // } else {
-          // $('.nav').removeClass('affix');
+//  Sticky Nav avec background black en js
+  $(window).onscroll(function() {
+      if ($(document).scrollTop() > 50) {
+          $('.nav').addClass('affix');
+          console.log("OK");
+      } else {
+          $('.nav').removeClass('affix');
       }
-  // });
-// $('.navTrigger').click(function () {
-  //  $(this).toggleClass('active');
-  //  console.log("Clicked menu");
-  //  $("#mainListDiv").toggleClass("show_list");
-  //  $("#mainListDiv").fadeIn();
+  });
+$('.navTrigger').onclick(function () {
+   $(this).toggleClass('active');
+   console.log("Clicked menu");
+   $("#mainListDiv").toggleClass("show_list");
+   $("#mainListDiv").fadeIn();
 
-// });
+});
 
 
 // Js pour pop-up produit
@@ -69,22 +70,22 @@ previewBox.forEach(close =>{
 })
 
 // Function  black background
-    // $(window).scroll(function() {
-        // if ($(document).scrollTop() > 50) {
-            // $('.nav').addClass('affix');
-            // console.log("OK");
-        // } else {
-            // $('.nav').removeClass('affix');:
-        // }
-    // })
-// 
+    $(window).onscroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    })
 
-  // $('.navTrigger').click(function () {
-    //  $(this).toggleClass('active');
-    //  console.log("Clicked menu");
-    //  $("#mainListDiv").toggleClass("show_list");
-    //  $("#mainListDiv").fadeIn();
+
+  $('.navTrigger').onclick(function () {
+     $(this).toggleClass('active');
+     console.log("Clicked menu");
+     $("#mainListDiv").toggleClass("show_list");
+     $("#mainListDiv").fadeIn();
  
-//  });
+ });
 
-// }
+}

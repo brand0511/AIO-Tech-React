@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRODUITS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="details.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css1/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    </head>
+    <body class="dark">
+      <nav class="sidebar close">
+         <header>
+             <div class="image-text">
+                 <span class="image">
+                     <img src="logo.png" alt="">
+                 </span>
+ 
+                 <div class="text logo-text">
+                     <span class="name">Logo</span>
+                     <span class="profession">Entreprise</span>
+                 </div>
+             </div>
+ 
+             <i class='bx bx-chevron-right toggle'></i>
+         </header>
+ 
+         <div class="menu-bar">
+             <div class="menu">
+ 
+                 <li class="search-box">
+                     <i class='bx bx-search icon'></i>
+                     <input type="text" placeholder="Search...">
+                 </li>
+ 
+                 <ul class="menu-links">
+                     
+                     <li class="nav-link">
+                         <a href="Description.html">
+                             <i class='bx bx-bar-chart-alt-2 icon'></i>
+                             <span class="text nav-text">Lits</span>
+                         </a>
+                     </li>
+                     <li class="nav-link">
+                        <a href="Description.html">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Meubles</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                     <a href="Description.html">
+                         <i class='bx bx-bar-chart-alt-2 icon'></i>
+                         <span class="text nav-text">Lustre</span>
+                     </a>
+                 </li>
+ 
+                    
+ 
+                 </ul>
+             </div>
+ 
+             <div class="bottom-content">
+               <li class="nav-link">
+                  <a href="cart.html">
+                      <i class='bx bx-cart icon'></i>
+                      <span class="text nav-text">Panier</span>
+                  </a>
+              </li>
+                 <li class="">
+                     <a href="index.html">
+                         <i class='bx bx-log-out icon' ></i>
+                         <span class="text nav-text">Logout</span>
+                     </a>
+                 </li>
+                 <li class="nav-link">
+                  <a href="index.html">
+                      <i class='bx bx-home-alt icon' ></i>
+                      <span class="text nav-text">Accueil</span>
+                  </a>
+              </li>
+
+ 
+                 <li class="mode">
+                     <div class="sun-moon">
+                         <i class='bx bx-moon icon moon'></i>
+                         <i class='bx bx-sun icon sun'></i>
+                     </div>
+                     <span class="mode-text text">Mode sombre</span>
+ 
+                     <div class="toggle-switch">
+                         <span class="switch"></span>
+                     </div>
+                 </li>
+                 
+             </div>
+         </div>
+ 
+     </nav>
+        <!--Produit-->
+        <div class="container">
+
+            <h3 class="title">NOS PRODUITS</h3>
+            <div class="search">
+               <li class="search-box">
+                  <input class="input-box" type="text" placeholder="Search...">
+              </li>
+            </div>               
+            
+            <div class="products-container">
+         
+               <div class="product" data-name="p-1">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+               <div class="product" data-name="p-2">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+               <div class="product" data-name="p-3">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+               <div class="product" data-name="p-4">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+               <div class="product" data-name="p-5">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+               <div class="product" data-name="p-6">
+                  <img src="bed.jpg" alt="">
+                  <h3>Produit</h3>
+                  <div class="price">{Prix}</div>
+               </div>
+         
+            </div>
+         
+         </div>
+         <!--pop-up produit-->
+         <div class="products-preview">
+         
+            <div class="preview" data-target="p-1">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+            <div class="preview" data-target="p-2">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+            <div class="preview" data-target="p-3">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+            <div class="preview" data-target="p-4">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+            <div class="preview" data-target="p-5">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+            <div class="preview" data-target="p-6">
+               <i class="fas fa-times"></i>
+               <img src="bed.jpg" alt="">
+               <h3>Produit</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <p>{Details du produit}</p>
+               <div class="price">{Prix}</div>
+               <div class="buttons">
+                  <a href="#" class="buy">COMMANDEZ</a>
+                  <a href="#" class="cart">Ajoutez au Panier</a>
+               </div>
+            </div>
+         
+         </div>
+         <!--Js pour pop-up produit-->
+        <script>let preveiwContainer = document.querySelector('.products-preview');
+            let previewBox = preveiwContainer.querySelectorAll('.preview');
+            
+            document.querySelectorAll('.products-container .product').forEach(product =>{
+              product.onclick = () =>{
+                preveiwContainer.style.display = 'flex';
+                let name = product.getAttribute('data-name');
+                previewBox.forEach(preview =>{
+                  let target = preview.getAttribute('data-target');
+                  if(name == target){
+                    preview.classList.add('active');
+                  }
+                });
+              };
+            });
+            
+            previewBox.forEach(close =>{
+              close.querySelector('.fa-times').onclick = () =>{
+                close.classList.remove('active');
+                preveiwContainer.style.display = 'none';
+              };
+            });</script>
+            <!-- Function  black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+               <!--Footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Genuka's <i>Template is easy to use </i> is an initiative  to help the upcoming programmers with the code. Genuka focuses on providing the most efficient templates as the code wants to be simple. We will help people to have their own online market environment .</p>
+            </div>
+  
+            
+            <div class="col-xs-6 col-md-3">
+              <h6>Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contribute</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+           <a href="#">Entreprise</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook-fa"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+  <script src="code.js"></script>
+    </body>
+</html>
+<!-- This templates was made by Feudjio brand-->
+<!--Mail: brandonfeudjio8@gmail.com-->
+<!--tel: 237691702951-->
