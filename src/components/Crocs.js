@@ -1,16 +1,17 @@
 import React from 'react';
-
-const crocs = () => {
+import "../styles/details.css"
+const Crocs = () => {
     return (
         <div>
              <div className="container">
+                  
 
-<h3 className="title">QUELQUES PRODUITS</h3>          
+<h2 className="title">QUELQUES PRODUITS</h2>          
 
 <div className="products-container">
 
    <div className="product" data-name="p-1">
-      <img src="img/bed.jpg" alt=""></img>
+      <img src="" alt=""></img>
       <h3>Produit</h3>
       <div className="price">Prix</div>
    </div>
@@ -169,4 +170,4 @@ const crocs = () => {
     );
 ;
     }
-export default crocs;
+export default Crocs;

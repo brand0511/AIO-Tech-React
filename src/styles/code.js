@@ -1,5 +1,5 @@
 import $ from 'jquery';
-export default function initPage(){
+
   const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
       toggle = body.querySelector(".toggle"),
@@ -88,4 +88,3 @@ previewBox.forEach(close =>{
  
  });
 
-}

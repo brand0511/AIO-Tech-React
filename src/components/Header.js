@@ -17,9 +17,9 @@ const Header = () => {
             </div>
             <div id="mainListDiv" className="main_list">
             <ul>
-                <NavLink to="/">
-                <li><a href="index.html">Accueil</a></li>
-                </NavLink>
+                
+                <li><NavLink to="/"> <a href="index.html">Accueil</a></NavLink></li>
+                
                 <NavLink to="/products">
                 <li>
                     <a href="Description.html">Produits
@@ -29,9 +29,9 @@ const Header = () => {
                 <NavLink to="/login">
                 <li><a href="connexion.html">Login</a></li>
                 </NavLink>
-                <NavLink to="/signup">
-                <li><a href="Signup.html">Signup</a></li>
-                </NavLink>
+                
+                <li><NavLink to="/signup"><a href="Signup.html">Signup</a></NavLink></li>
+                
                 <NavLink to="/cart">
                 <li><a href="cart.html"><i className="fa fa-shopping-cart" aria-hidden="false"></i></a></li>
                 </NavLink>

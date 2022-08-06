@@ -5,6 +5,8 @@ import "../styles/details.css";
 const Overview = () => {
     return (
         <div>
+         <section className="home">
+    </section>
             			<h2 className="myH2">NOS PRODUITS</h2>
                      
              {/* Produit */}
