@@ -1,5 +1,6 @@
 import $ from 'jquery';
 
+export const jquerryFnction = () =>{
   const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
       toggle = body.querySelector(".toggle"),
@@ -87,4 +88,5 @@ previewBox.forEach(close =>{
      $("#mainListDiv").fadeIn();
  
  });
+}  
 

@@ -2,11 +2,16 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import {NavLink} from "react-router-dom";
 import "../styles/style.css";
-
+import { jquerryFnction } from "../styles/code";
 
 
 const Overview = () => {  
-  
+  useEffect(() => {
+    //jquerryFnction()
+  }, [])
+  setInterval(() => {
+    jquerryFnction()
+  }, 3000);
     return (
       <div>
       <h2 className="myH2">NOS PRODUITS</h2>
