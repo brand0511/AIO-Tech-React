@@ -1,12 +1,22 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import "../styles/style.css";
+import $ from 'jquery';
+import "jquery-ui-dist/jquery-ui";
+import { useEffect } from "react";
 
-
-
+ùioio
 const Header = () => {
-
-    return (
+    useEffect(() =>{
+  $('.navTrigger').click(function () {
+     $(this).toggleClass('active');
+     console.log("Clicked menu");
+     $("#mainListDiv").toggleClass("show_list");
+     $("#mainListDiv").fadeIn();
+ 
+ });
+    },[]);
+     return (
         <div>
         <nav className="nav">
         <div className="container">
@@ -47,7 +57,9 @@ const Header = () => {
     <section class="home">
     </section>
         </div>
+        
     );
+    
 }; 
 
 export default Header;

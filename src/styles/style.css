@@ -466,7 +466,7 @@
  .products-preview .preview .fa-times{
     position: absolute;
     top:1rem; right:1.5rem;
-    cursor: pointer;;;;
+    cursor: pointer;
     color:#444;
     font-size: 4rem;
  }

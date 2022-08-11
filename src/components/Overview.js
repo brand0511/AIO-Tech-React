@@ -1,17 +1,36 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {NavLink} from "react-router-dom";
 import "../styles/style.css";
-import { jquerryFnction } from "../styles/code";
+import $ from 'jquery';
+import "jquery-ui-dist/jquery-ui";
+import { useEffect } from "react";
 
 
-const Overview = () => {  
-  useEffect(() => {
-    //jquerryFnction()
-  }, [])
-  setInterval(() => {
-    jquerryFnction()
-  }, 3000);
+const Overview = () => {
+  useEffect(() =>{
+    let preveiwContainer = document.querySelector('.products-preview');
+    let previewBox = preveiwContainer.querySelectorAll('.preview');
+    
+    document.querySelectorAll('.products-container .product').forEach(product =>{
+      product.onclick = () =>{
+        preveiwContainer.style.display = 'flex';
+        let name = product.getAttribute('data-name');
+        previewBox.forEach(preview =>{
+          let target = preview.getAttribute('data-target');
+          if(name == target){
+            preview.classList.add('active');
+          }
+        });
+      };
+    });
+    
+    previewBox.forEach(close =>{
+      close.querySelector('.fa-times').onclick = () =>{
+        close.classList.remove('active');
+        preveiwContainer.style.display = 'none';
+      };
+    })
+  },[])
     return (
       <div>
       <h2 className="myH2">NOS PRODUITS</h2>
@@ -83,8 +102,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart">   <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement">  <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart">   <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
@@ -103,8 +122,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement"> <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart"> <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
@@ -123,8 +142,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement">  <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart"> <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
@@ -143,8 +162,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart">  <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement"> <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart">  <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
@@ -163,8 +182,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement">  <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart">  <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement">  <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart">  <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
@@ -183,8 +202,8 @@ const Overview = () => {
 <p>Details du produit</p>
 <div className="price">Prix</div>
 <div className="buttons">
-<NavLink to="/paiement"> <a href="#" className="buy">COMMANDEZ</a></NavLink>
-<NavLink to="/cart"> <a href="#" className="cart">Ajoutez au Panier</a></NavLink>
+<NavLink to="/paiement"> <a href="#" className="buy">COMMAND</a></NavLink>
+<NavLink to="/cart"> <a href="#" className="cart">Add to Cart</a></NavLink>
 </div>
 </div>
 
