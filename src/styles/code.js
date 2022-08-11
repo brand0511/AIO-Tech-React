@@ -1,8 +1,5 @@
-import  ReactDOM  from 'react-dom';
-import React from 'react';
 import $ from 'jquery';
 
-export const jquerryFnction = () =>{
   const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
       toggle = body.querySelector(".toggle"),
@@ -47,48 +44,4 @@ $('.navTrigger').onclick(function () {
 
 });
 
-
-// Js pour pop-up produit
-let preveiwContainer = document.querySelector('.products-preview');
-let previewBox = preveiwContainer.querySelectorAll('.preview');
-
-document.querySelectorAll('.products-container .product').forEach(product =>{
-  product.onclick = () =>{
-    preveiwContainer.style.display = 'flex';
-    let name = product.getAttribute('data-name');
-    previewBox.forEach(preview =>{
-      let target = preview.getAttribute('data-target');
-      if(name == target){
-        preview.classList.add('active');
-      }
-    });
-  };
-});
-
-previewBox.forEach(close =>{
-  close.querySelector('.fa-times').onclick = () =>{
-    close.classList.remove('active');
-    preveiwContainer.style.display = 'none';
-  };
-})
-
-// Function  black background
-    $(window).onscroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('.nav').addClass('affix');
-            console.log("OK");
-        } else {
-            $('.nav').removeClass('affix');
-        }
-    })
-
-
-  $('.navTrigger').onclick(function () {
-     $(this).toggleClass('active');
-     console.log("Clicked menu");
-     $("#mainListDiv").toggleClass("show_list");
-     $("#mainListDiv").fadeIn();
- 
- });
-}  
 

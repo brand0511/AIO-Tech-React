@@ -5,7 +5,7 @@ import Panier from '../components/Panier';
 const Cart = () => {
     return (
         <div>
-            <Panier/>
+        <Panier/>
         </div>
     );
 };
