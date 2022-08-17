@@ -69,7 +69,6 @@ form{
     outline: none;
     padding: 0 15px;
     border: 1px solid#ffffff8c;
-    color: #ffffff;
 }
 .field input:focus{
     border-bottom-width: 2px;

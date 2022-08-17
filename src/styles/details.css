@@ -17,7 +17,7 @@
 }
 
 body{
-   min-height: 100vh;
+   min-height: 2vh;
    background-color: var(--body-color);
    transition: var(--tran-05);
 }
@@ -44,9 +44,9 @@ body.dark{
    height: 100%;
    width: 250px;
    padding: 10px 14px;
-   background: var(--sidebar-color);
+   background: black;
    transition: var(--tran-05);
-   z-index: 100;  
+   z-index: 1000;  
 }
 .sidebar.close{
    width: 0px;

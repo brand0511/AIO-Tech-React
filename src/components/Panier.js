@@ -17,10 +17,10 @@ const Panier = () => {
                       <table id="shoppingCart" className="table table-condensed table-responsive">
                           <thead>
                               <tr>
-                                  <th style="width:60%">Product</th>
-                                  <th style="width:12%">Price</th>
-                                  <th style="width:10%">Quantity</th>
-                                  <th style="width:16%"></th>
+                                  <th style={{width:'60%'}}>Product</th>
+                                  <th style={{width:'12%'}}>Price</th>
+                                  <th style={{width:'10%'}}>Quantity</th>
+                                  <th style={{width:'16%'}}></th>
                               </tr>
                           </thead>
                           <tbody>
@@ -38,7 +38,7 @@ const Panier = () => {
                                   </td>
                                   <td data-th="Price">Prix</td>
                                   <td data-th="Quantity">
-                                      <input type="number" className="form-control form-control-lg text-center" value="1"/>
+                                      <input type="number" className="form-control form-control-lg text-center" required = "true"/>
                                   </td>
                                   <td className="actions" data-th="">
                                       <div className="text-right">
@@ -65,11 +65,11 @@ const Panier = () => {
                                   </td>
                                   <td data-th="Price">Prix</td>
                                   <td data-th="Quantity">
-                                      <input type="number" className="form-control form-control-lg text-center" value="1"/>
+                                      <input type="number" className="form-control form-control-lg text-center" required="true"/>
                                   </td>
                                   <td className="actions" data-th="">
                                       <div className="text-right">
-                                          <button className="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <button className="btn btn-white border-secondary bg-white btn-md mb-2 ">
                                               <i className="fas fa-sync"></i>
                                           </button>
                                           <button className="btn btn-white border-secondary bg-white btn-md mb-2">
@@ -92,11 +92,11 @@ const Panier = () => {
                                   </td>
                                   <td data-th="Price">Prix</td>
                                   <td data-th="Quantity">
-                                      <input type="number" className="form-control form-control-lg text-center" value="1"/>
+                                      <input type="number" className="form-control form-control-lg text-center"  required="true"/>
                                   </td>
                                   <td className="actions" data-th="">
                                       <div className="text-right">
-                                          <button className="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <button className="btn btn-white border-secondary bg-white btn-md mb-2 ">
                                               <i className="fas fa-sync"></i>
                                           </button>
                                           <button className="btn btn-white border-secondary bg-white btn-md mb-2">
