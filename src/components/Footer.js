@@ -122,4 +122,4 @@ const Footer = () => {
 export default Footer;
 
 // Made by Feudjio brand
-// E-mail: brandonfeudjio8@gmail.com
+// E-mail: brandonfeudjio8@gmail.com#0083fd
