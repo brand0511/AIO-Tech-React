@@ -1,4 +1,5 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 import {NavLink} from "react-router-dom";
 import "../styles/style.css";
 
@@ -6,7 +7,7 @@ const Sidebar = () => {
 
     return (
         <body>
-             <nav className="sidebar close">
+             <nav className="sidebar">
          <header>
              <body className="image-text">
                  <span className="image">

@@ -3,11 +3,6 @@ import {NavLink} from "react-router-dom";
 import "../styles/signup.css";
 
 const Inscrire = () => {
-    const [nom, setNom]= usestate('')
-
-    function signUp () {
-        console.log(nom)
-    };
     return (
         <div>
             <section className="container1 forms">
@@ -16,7 +11,7 @@ const Inscrire = () => {
                     <header>Inscription</header>
                     <form action="#">
                     <div className="field input-field">
-                            <input type="text" value={nom} onchange={(e)=>setNom(e.target.value)} placeholder="Nom" className="input"/>
+                            <input type="text" placeholder="Nom" className="input"/>
                         </div>
                         <div className="field input-field">
                             <input type="text" placeholder="Prenom" className="input"/>
@@ -31,7 +26,7 @@ const Inscrire = () => {
                         </div>
 
                         <div className="field button-field">
-                            <button onClick={signUp}>Inscrire</button>
+                            <button>Inscrire</button>
                         </div>
                     </form>
 

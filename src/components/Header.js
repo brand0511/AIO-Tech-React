@@ -2,23 +2,18 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import "../styles/style.css";
 import "jquery-ui-dist/jquery-ui";
-import {Helmet} from "react-helmet";
 
 
 const Header = () => {
-    // <Helmet>
-    //     <script
-    //     src="../styles/code.js">
-    //     </script>
-    // </Helmet>
-    return ( <div>
+    return (
+         <div>
         <nav className = "nav">
         <div className = "container">
         <div className = "logo">
         <NavLink to = "/" >
         <a href = "#"> Your Logo </a> </NavLink> 
         </div> 
-        <div id = "mainListDiv" className = "main_list">
+        <div id = "mainListDiv" className = "mainListDiv">
         <ul>
 
         <li> <NavLink to = "/"> <a href = "index.html">Accueil</a></NavLink>
@@ -48,7 +43,7 @@ const Header = () => {
 
     );
 
-};
+}
 
 export default Header;
 

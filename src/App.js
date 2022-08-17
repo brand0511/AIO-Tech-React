@@ -11,6 +11,7 @@ import Collection from "./pages/Collection";
 
 const App = () => {
   return(
+    
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>} />
