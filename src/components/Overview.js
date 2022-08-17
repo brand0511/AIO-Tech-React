@@ -47,37 +47,37 @@ const Overview = () => {
 <div className="products-container">
 
 <div className="product" data-name="p-1">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
 
 <div className="product" data-name="p-2">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
 
 <div className="product" data-name="p-3">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
 
 <div className="product" data-name="p-4">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
 
 <div className="product" data-name="p-5">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
 
 <div className="product" data-name="p-6">
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="price">Prix</div>
 </div>
@@ -89,7 +89,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-1">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
@@ -109,7 +109,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-2">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
@@ -129,7 +129,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-3">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
@@ -149,7 +149,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-4">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
@@ -169,7 +169,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-5">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
@@ -189,7 +189,7 @@ const Overview = () => {
 
 <div className="preview" data-target="p-6">
 <i className="fas fa-times"></i>
-<img src="" alt=""/>
+<img src="bed.jpg" alt=""/>
 <h3>Produit</h3>
 <div className="stars">
 <i className="fas fa-star"></i>
